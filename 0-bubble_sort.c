@@ -33,7 +33,7 @@ void bubble_sort(int *array, size_t size)
 				swapped = 1;
 			}
 		}
-		/* Reduce the range of comparison */
+		/* Reduce the range of comparison for each pass */
 		n--;
 	} while (swapped);
 }
