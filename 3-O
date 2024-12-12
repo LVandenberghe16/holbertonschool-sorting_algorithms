@@ -1,0 +1,3 @@
+O(nlog(n))  # Best case: Balanced partitions
+O(nlog(n))  # Average case: Random order
+O(n^2)  # Worst case: Already sorted or reverse sorted
